@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVS Motorcycle Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="https://th.bing.com/th/id/OIP.cP8YQqVYKWK6_RjuEMVs0wHaEw?w=227&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="TVS Logo" class="logo" width="180">
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="javascript:void(0);" onclick="showPage('home')">Home</a></li>
+                    <li><a href="javascript:void(0);" onclick="showPage('motorcycles')">Motorcycles</a></li>
+                    <li><a href="javascript:void(0);" onclick="showPage('accessories')">Accessories</a></li>
+                    <li><a href="javascript:void(0);" onclick="showPage('events')">Events & Releases</a></li>
+                    <li><a href="javascript:void(0);" onclick="showPage('contact')">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="book-ride-button">Book a Ride</button>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <div id="home" class="page active">
+        <!-- Slideshow Section -->
+        <div id="slideshow">
+            <div class="slide active"><img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Motorcycles/Book-Vehicle---884x628.webp?la=en&hash=6EB5C90E77F09C99C0A332949392C89A" alt="Slide 1" class="slide-image" height="600"></div>
+            <div class="slide"><img src="https://www.tvsmotor.com/-/media/ApacheMainPage/Apache-Range-Mobile-Banner-675-x-357-Pix.webp?la=en&hash=5BBDF5C72A06A4BC332AFCF9808F97D8" alt="Slide 2" class="slide-image" height="600"></div>
+            <div class="slide"><img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/EV/Vehicle-fold-landing-page--890x484.webp?la=en&hash=6F3CDB712851442659FC41B2D7ACB469" alt="Slide 3" class="slide-image" height="600"></div>
+            <div class="dots-container">
+                <span class="dot active" onclick="showSlide(0)"></span>
+                <span class="dot" onclick="showSlide(1)"></span>
+                <span class="dot" onclick="showSlide(2)"></span>
+            </div>
+        </div><br>
+        <video width="100%" controls autoplay loop>
+            <source src="https://www.tvsmotor.com/tvs-jupiter/-/media/TVS-Jupiter-110/SXC-Disc/Banner-Adapts/Compressed-Banner-1920x720_V6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <!-- Key Features Section -->
+        <section class="features-section">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="https://www.tvsmotor.com/tvs-jupiter/-/media/TVS-Jupiter-110/SXC-Disc/Variantsfeatures/Feature-Thumbnails/Feature-thumbnail_U279_422x270_Comfort_com.webp" alt="Feature 1">
+                <h3>Comfort</h3>
+                <p>The TVS Jupiter boasts a sleek and modern design with contemporary styling elements, making it a head-turner on the road. Its elegant lines and vibrant colors add a touch of sophistication to your everyday ride.</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.tvsmotor.com/tvs-jupiter/-/media/TVS-Jupiter-110/SXC-Disc/Variantsfeatures/Feature-Thumbnails/Feature-thumbnail_U279_422x270_Style_com.webp" alt="Feature 2">
+                <h3>Style</h3>
+                <p>The TVS Jupiter boasts a sleek and modern design with contemporary styling elements, making it a head-turner on the road. Its elegant lines and vibrant colors add a touch of sophistication to your everyday ride.</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.tvsmotor.com/tvs-jupiter/-/media/TVS-Jupiter-110/SXC-Disc/Variantsfeatures/Feature-Thumbnails/Feature-thumbnail_U279_422x270_Space_com.webp" alt="Feature 3">
+                <h3>Space</h3>
+                <p>With ample under-seat storage and a front hook for easy carrying of bags, the TVS Jupiter offers convenient space solutions for your daily commutes or weekend getaways.</p>
+            </div>
+        </section>
+
+        <!-- Specifications Section -->
+        <section class="specs-section">
+            <h2>Specifications</h2>
+            <table>
+                <tr>
+                    <th>Engine</th>
+                    <td>Single cylinder,4 stroke</td>
+                </tr>
+                <tr>
+                    <th>Max Power</th>
+                    <td>5,9kW @ 6500 rpm</td>
+                </tr>
+                <tr>
+                    <th>Max Torque</th>
+                    <td>9.8Nm @ 5000rpm (with Assist)</td>
+                </tr>
+                <tr>
+                    <th>Displacement</th>
+                    <td>113.3 cc</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    
+    <!-- Motorcycles Section -->
+    <div id="motorcycles" class="page">
+        <h1 align="center">Motorcycles</h1><br>
+        <section class="motorcycles-section">
+            <div class="motorcycle-grid">
+                <!-- Example Motorcycles -->
+                <!-- Repeat the motorcycle items as needed -->
+                <div class="motorcycle-item">
+                    <img src="https://bd.gaadicdn.com/processedimages/tvs/tvs-apache/source/tvs-apache65eeefbfcecda.jpg" alt="Bike Model 1">
+                    <h3>TVS Apache RTR 160 4V</h3>
+                    <p>Price: Rs.1.25 - 1.39 Lakh</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http://cdni.autocarindia.com/ExtraImages/20210118012929_TVS_Radeon_1.jpg&amp;w=500&amp;h=330&amp;q=75&amp;c=1" alt="Bike Model 1">
+                    <h3>TVS Radeon</h3>
+                    <p>Price: ₹ 73,310</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://bd.gaadicdn.com/processedimages/tvs/raider/640X309/raider6437f733e3c37.jpg" alt="Bike Model 1">
+                    <h3>TVS Raider</h3>
+                    <p>Price: Rs.95,219 - 1.04 Lakh</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/124775/ronin-225-right-front-three-quarter.jpeg?isig=0" alt="Bike Model 1">
+                    <h3>TVS Ronin</h3>
+                    <p>Price: ₹ 1,49,201</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <br><h1 align="center">Scooters</h1><br>
+        <section class="motorcycles-section">
+            <div class="motorcycle-grid">
+                <!-- Example Motorcycles -->
+                <!-- Repeat the motorcycle items as needed -->
+                <div class="motorcycle-item">
+                    <img src="https://www.tvsmotor.com/tvs-ntorq/-/media/Brand-Pages-Webp/Common/You-may-like/TVS_Jupiter_2020.webp" alt="Bike Model 1">
+                    <h3>TVS NTORQ 125 STD</h3>
+                    <p>Price: Rs.86,841</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://bd.gaadicdn.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1c70252a7.jpg" alt="Bike Model 1">
+                    <h3>TVS Scooty Zest</h3>
+                    <p>Price: Rs.74,476 - 76,239</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://bd.gaadicdn.com/processedimages/tvs/tvs-scooty/640X309/tvs-scooty60069d82e1217.jpg" alt="Bike Model 1">
+                    <h3>TVS Scooty Pep Plus</h3>
+                    <p>Price: Rs.65,514 - 68,414</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="motorcycle-item">
+                    <img src="https://bd.gaadicdn.com/processedimages/tvs/iqube-st/source/iqube-st66a776416f89c.jpg" alt="Bike Model 1">
+                    <h3>TVS iQube</h3>
+                    <p>Price: Rs.97,299 - 1.20 Lakh</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Accessories Section -->
+    <div id="accessories" class="page">
+        <h1>Accessories</h1>
+        <p>Find the perfect accessories to complement your ride.</p>
+        <section class="accessories-section">
+            <div class="accessories-grid">
+                <!-- Example Accessories -->
+                <!-- Repeat the accessories items as needed -->
+                <div class="accessories-item">
+                    <img src="https://m.media-amazon.com/images/I/61xv8k5p1gL._AC_UF1000,1000_QL80_.jpg" alt="Bike Model 1">
+                    <h3>Helmet</h3>
+                    <p>Price: Rs.1,836</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="accessories-item">
+                    <img src="https://powersports.in/cdn/shop/products/KORDA_Track_Gloves_1.jpg?v=1662531545" alt="Bike Model 1">
+                    <h3>Riding Gloves</h3>
+                    <p>Price: Rs.769</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="accessories-item">
+                    <img src="https://treknride.com/wp-content/uploads/2020/06/new4.jpg" alt="Bike Model 1">
+                    <h3>Tank Bag</h3>
+                    <p>Price: Rs.2,699</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="accessories-item">
+                    <img src="https://m.media-amazon.com/images/I/31WzGHPcl4L._AC_.jpg" alt="Bike Model 1">
+                    <h3>Crash Gaurds</h3>
+                    <p>Price: Rs.1,999</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Events & Releases Section -->
+    <div id="events" class="page">
+        <section class="events-container">
+            <h2>Events & Releases</h2>
+            <div class="events-container">
+                <!-- Example Events -->
+                <!-- Repeat the events as needed -->
+                <div class="event">
+                    <img src="https://www.tvsmotor.com/-/media/Feature/Press-Release/29-09-23/new/TVS-MotoSoul.jpg?sc_lang=en" alt="Event 1">
+                    <h3>New Model Launch</h3>
+                    <p>Join us for the launch of our latest motorcycle model. Date: December, 2023. Location: Downtown Arena.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="page">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-details">
+                <h3>Get in Touch</h3>
+                <p>Address: 123 Main Street, City, Country</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: info@motorcyclecompany.com</p>
+            </div>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
